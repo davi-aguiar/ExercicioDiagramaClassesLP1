@@ -11,7 +11,7 @@ public class Exame {
         this.valor = valor;
     }
      public void relatorioE(){
-        System.out.print(descricao  +" "+ codigo +" "+ valor +" "+ realizacao);
+        System.out.print(descricao  +" "+ codigo +" "+ valor );
         realizacao.imprimirData();
     }
     

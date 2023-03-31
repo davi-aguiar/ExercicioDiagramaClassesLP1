@@ -9,12 +9,9 @@ public class Diagrama{
         this.ano = ano;
 
     }
+    
     public void imprimirData(){
         System.out.println("/"+dia+" /" + mes +"/" + ano);
-    }
-
-    public String toString() {
-        return dia + mes + ano;
     }
 
 }
